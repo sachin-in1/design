@@ -46,7 +46,7 @@ model = Word2Vec(final_sentences, size=100, window=5, min_count=5, workers=4)
 # Save the vectors to a text file
 model.wv.save_word2vec_format(output_text_file, binary=False)
 #print(model.vocab)
-model.vectors.shape
+#model.vectors.shape
 # Open up that text file and convert to JSON
 f = open(output_text_file)
 v = {"vectors": {}}
