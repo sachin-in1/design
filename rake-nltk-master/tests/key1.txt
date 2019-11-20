@@ -1,0 +1,1 @@
+Rapid Automatic Keyword Extraction, or RAKE. This is used for extracting and ranking the keywords/phrases out of a document without any other context except for the document itself.
